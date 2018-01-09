@@ -1,0 +1,51 @@
+body
+{
+  background-color: rgb(242, 244, 244);
+  margin: 50px 300px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+a
+{
+  text-decoration: none;
+  color: blue;
+  font-style: italic;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color: green;
+}
+
+a:visited
+{
+  color: grey;
+}
+
+a:visited:hover
+{
+  color: purple;
+}
+
+span.still
+{
+font-style: italic;
+}
+
+p, ul
+{
+  text-align: justify;
+  line-height: 1.6;
+}
+
+h1
+{
+  font-size: 2.3em;
+  line-height: 1;
+}
+
+#citation
+{
+  margin-left: 50px;
+}
