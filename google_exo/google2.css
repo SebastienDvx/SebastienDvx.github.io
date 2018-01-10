@@ -1,0 +1,156 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  font-family: arial, sans-serif;
+  background-color: white;
+
+}
+
+body > section
+{
+  flex:1;
+}
+
+header
+{
+  text-align: right;
+  font-size: 0.8em;
+}
+
+nav a
+{
+  color: rgba(0,0,0,0.85);
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover
+{
+  color: rgba(0,0,0,0.75);
+  text-decoration: underline;
+}
+
+nav button
+{
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  width: 95px;
+  border-radius: 4px;
+  box-shadow: 0px;
+  border: 0px;
+  margin: 20px;
+}
+
+#foo
+{
+  width: 640px;
+  text-align: center;
+  margin: auto;
+}
+
+section
+{
+  display: flex;
+  flex-direction: column;
+}
+
+img
+{
+  margin: auto;
+}
+
+input.search
+{
+height: 40px;
+width: 600px;
+border-radius: 3px;
+border: 1px rgba(120, 120, 120, 0.2) solid;
+box-shadow: 0px 0px 6px rgba(120, 120, 120, 0.5);
+}
+
+input.search:hover
+{
+height: 40px;
+width: 600px;
+border-radius: 3px;
+border: 1px rgba(120, 120, 120, 0.2) solid;
+box-shadow: 0px 0px 6px rgba(120, 120, 120, 0.8);
+}
+
+input.rech
+{
+  background-color: rgba(200, 200, 200, 0.3);
+  height: 35px;
+  width: 150px;
+  border: 0px;
+  color: rgba(120, 120, 120, 1);
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+input.rech:hover
+{
+  background-color: rgba(200, 200, 200, 0.3);
+  height: 35px;
+  width: 150px;
+  border: 1px rgba(120, 120, 120, 1) solid;
+  color: rgba(50, 50, 50, 0.8);
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+footer
+{
+  background-color: rgba(120, 120, 120, 0.1);
+}
+
+footer > div
+{
+    padding: 15px;
+}
+footer > div:first-child
+{
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 35px;
+  border-top: 1px rgba(0, 0, 0, 0.1) solid;
+  border-bottom:1px rgba(0, 0, 0, 0.1) solid;
+
+
+}
+
+footer > div:last-child
+{
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 25px;
+
+}
+
+footer a
+{
+  color: rgba(0,0,0,0.5);
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 8px;
+}
+
+footer a:hover
+{
+  color: rgba(0,0,0,0.75);
+  text-decoration: underline;
+}
+
+#flottant
+{
+  float: right;
+  margin-right: 10px;
+}
